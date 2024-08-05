@@ -1,0 +1,277 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "Tracker",
+        "printedName": "Tracker",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tracker",
+                "printedName": "Analytics.Tracker",
+                "usr": "s:9Analytics7TrackerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Analytics7TrackerC6sharedACvpZ",
+            "mangledName": "$s9Analytics7TrackerC6sharedACvpZ",
+            "moduleName": "Analytics",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tracker",
+                    "printedName": "Analytics.Tracker",
+                    "usr": "s:9Analytics7TrackerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Analytics7TrackerC6sharedACvgZ",
+                "mangledName": "$s9Analytics7TrackerC6sharedACvgZ",
+                "moduleName": "Analytics",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tracker",
+                    "printedName": "Analytics.Tracker",
+                    "usr": "s:9Analytics7TrackerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Analytics7TrackerC6sharedACvsZ",
+                "mangledName": "$s9Analytics7TrackerC6sharedACvsZ",
+                "moduleName": "Analytics",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Analytics7TrackerC6sharedACvMZ",
+                "mangledName": "$s9Analytics7TrackerC6sharedACvMZ",
+                "moduleName": "Analytics",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "systemName",
+            "printedName": "systemName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Analytics7TrackerC10systemNameSSvp",
+            "mangledName": "$s9Analytics7TrackerC10systemNameSSvp",
+            "moduleName": "Analytics",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Analytics7TrackerC10systemNameSSvg",
+                "mangledName": "$s9Analytics7TrackerC10systemNameSSvg",
+                "moduleName": "Analytics",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Analytics7TrackerC10systemNameSSvs",
+                "mangledName": "$s9Analytics7TrackerC10systemNameSSvs",
+                "moduleName": "Analytics",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Analytics7TrackerC10systemNameSSvM",
+                "mangledName": "$s9Analytics7TrackerC10systemNameSSvM",
+                "moduleName": "Analytics",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "track",
+            "printedName": "track(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Analytics7TrackerC5track5valueySS_tF",
+            "mangledName": "$s9Analytics7TrackerC5track5valueySS_tF",
+            "moduleName": "Analytics",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tracker",
+                "printedName": "Analytics.Tracker",
+                "usr": "s:9Analytics7TrackerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Analytics7TrackerCACycfc",
+            "mangledName": "$s9Analytics7TrackerCACycfc",
+            "moduleName": "Analytics",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9Analytics7TrackerC",
+        "mangledName": "$s9Analytics7TrackerC",
+        "moduleName": "Analytics",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jose.gil\/Desktop\/Analytics\/Analytics\/Tracker.swift",
+      "kind": "StringLiteral",
+      "offset": 99,
+      "length": 11,
+      "value": "\"Undefined\""
+    }
+  ]
+}
